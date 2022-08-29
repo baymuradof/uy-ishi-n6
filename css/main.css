@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.img-widht{
+    width: 100%;
+    background: rgba(52, 52, 52, 0.6);
+    border-radius: 0px;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.9;
+}
+header{
+    padding-top: 32px;
+}
+nav{
+    display: flex;
+    color: white;
+    list-style: none;
+    gap: 32px;
+    justify-content: flex-end;
+    width: 90%;
+    align-items: center;
+}
+nav > a{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 17px 24px;
+    background: #FF4D01;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.hero{
+    width: 100%;
+}
+.hero > h1{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 84px;
+    text-align: center;
+    color: #FFFFFF;
+    max-width: 660px;
+    width: 100%;
+    padding-top: 177px;
+    margin-left: 27%;
+}
+.hero > p{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-left: 27%;
+    max-width: 640px;
+    width: 100%;
+}
+.hero-buttons{
+    padding-left: 532px;
+    margin-top: 35px;
+    display: flex;
+    gap: 66px;
+}
+.qoute{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 24px 30px;
+    background: #FF4D01;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.about-part{
+    display: flex;
+    gap: 73px;
+    padding-top: 488px;
+    padding-left: 146px;
+}
+.number-text{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+    color: #989899;
+
+}
+.servise{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    border-radius: 5px;
+    padding: 22px 30px;
+    background-color: transparent;
+    text-decoration: none;
+}
+.about-text > h2{
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 22px;
+        letter-spacing: 0.8px;
+        text-transform: uppercase;
+        color: #FF4D01;
+}
+.about-text{
+    margin-top: 80px;
+}
+.about-text > h3{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 62px;
+    color: #191919;
+    max-width: 522px;
+    width: 100%;
+    margin-top: 15px;
+}
+.about-text > p{
+    max-width: 589px;
+    width: 100%;
+    margin-top: 19px;
+}
+.number{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 84px;
+    text-align: center;
+    color: #191919;
+}
+.red{
+    color: red;
+}
+.about-text-price{
+    display: flex;
+    gap: 86px;
+    margin-top: 56px;
+}
